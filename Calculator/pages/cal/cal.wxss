@@ -1,0 +1,39 @@
+.content{
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top:30rpx;
+  background-image:url("https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2018/03/Ultimate-Guide-Coding-for-Beginners-e14853060348902.png");
+  background-size: cover;
+}
+.screen{
+  background-color:#fff;
+  border-radius:3px;
+  text-align:right;
+  width: 720rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding-right: 10rpx;
+  margin-bottom: 30rpx;
+}
+.btnGroup{
+  display: flex;
+  flex-flow: row nowrap;
+}
+.item{
+  width: 160rpx;
+  min-height: 150rpx;
+  margin: 10rpx;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 150rpx;
+}
+.orange{
+  background-color: orange;
+}
+.blue{
+  background-color: lightblue;
+}
